@@ -1,0 +1,25 @@
+.board-footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  min-height: 80px;
+  padding: 20px;
+  z-index: 200;
+}
+
+.tab-pane{
+  display: flex !important;
+  flex-direction: column;
+  border-width: 1px 0 0 0 !important;
+}
+
+.logo-header{
+  color: #e8272a !important;
+}
+
+
+.copyright{
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}

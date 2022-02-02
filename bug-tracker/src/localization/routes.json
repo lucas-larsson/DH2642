@@ -1,0 +1,10 @@
+{
+    "HOME_PATH": "/home",
+    "LOGIN_PATH": "/login",
+    "SIGNUP_PATH": "/signup",
+    "BOARD_PATH": "/board",
+    "ABOUT_PATH": "/about",
+    "DEFAULT_PATH": "/",
+    "GITHUB_PATH": "https://github.com",
+    "GITHUB_API_PATH": "https://api.github.com"
+}

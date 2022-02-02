@@ -1,0 +1,5 @@
+export { default as HomePage } from './homePage'
+export { default as BoardPage } from './boardPage'
+export { default as LoginPage } from './loginPage'
+export { default as SignupPage } from './signupPage'
+export { default as AboutPage } from './aboutPage'

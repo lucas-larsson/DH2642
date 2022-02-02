@@ -1,0 +1,11 @@
+export { default as BoardView } from './boardView.js';
+export { default as FooterView } from './footerView.js';
+export { default as HomeView } from './homeView.js';
+export { default as LoginFormView } from './loginFormView.js';
+export { default as SignupFormView } from './signupFormView.js';
+export { default as MainNavView } from './mainNavView.js';
+export { default as AboutView } from './aboutView.js';
+export { default as TicketEditorView } from './ticketEditorView.js';
+export { default as TicketView } from './ticketView.js';
+export { default as BoardOverviewView } from './BoardOverviewView.js';
+export { default as AddTicketView } from './addTicketView.js';

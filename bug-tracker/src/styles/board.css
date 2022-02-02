@@ -1,0 +1,124 @@
+/* Some extra CSS for card grid layout */
+
+.board-grid {
+  padding: 20px !important;
+  min-height: 77vh;
+}
+
+.boardView {
+  /* Container behaviour */
+
+  margin-left: 5%;
+  margin-right: 5%;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.boardView > .btvTicket {
+  text-align: left;
+  max-width: 320px;
+  min-width: 320px;
+  min-height: 250px;
+  max-height: 250px;
+  border-radius: 2%;
+  -webkit-box-shadow: 7px 7px 15px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 7px 7px 15px 3px rgba(0, 0, 0, 0.2);
+}
+/* Magic */
+.boardView .btvTicket:hover {
+  box-shadow: 0 0 10px rgb(100, 97, 97);
+}
+
+/* Hides part of the ticket content */
+.boardView .btvDescription {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.ui.dimmer {
+  background: rgba(0, 0, 0, 0.096) !important;
+}
+
+.ui.icon.asfasf {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.ui.step.stepStyle {
+  padding: 200px;
+  margin: 200px;
+  float: right;
+}
+
+.ui.grid.gridColumn {
+  margin: 100px;
+}
+
+.ui.segment.segStyle {
+  min-height: 1500px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.board-ticket-space {
+  margin-top: 5px !important;
+  padding-bottom: 3px !important;
+}
+
+.card-style {
+  max-height: 200px !important;
+  width: 200px;
+  margin-bottom: 30px !important;
+}
+
+.ticket-edit {
+  min-height: 105px;
+  max-width: 600px !important; 
+}
+
+.ticket-edit-card {
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.ticket-edit-header {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-edit-modal {
+  min-height: 105px;
+}
+
+.ticket-edit-priority {
+  margin-left: 2px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.ticket-edit-priority-header {
+  text-align: left !important;
+}
+
+.ticket-edit-content{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  padding-bottom: 5px;
+}
+
+.center{
+  align-items: center !important;
+}
+
+.project-view{
+  /* display: flex !important;
+  justify-content: space-between; */
+  margin: 10px 0px !important; 
+  text-decoration: italic;
+
+}

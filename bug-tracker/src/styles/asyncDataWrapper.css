@@ -1,0 +1,10 @@
+.async-data-wrapper-loading {
+  margin-top: -13px !important;
+  min-height: 77vh !important;
+}
+
+.async-data-wrapper-error {
+  border: none !important;
+  box-shadow: none !important;
+  width: 100% !important;
+}

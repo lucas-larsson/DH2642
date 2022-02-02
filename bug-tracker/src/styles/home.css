@@ -1,0 +1,42 @@
+.home-container {
+  padding: 20px 0 40px 0;
+}
+
+.home-grid {
+  min-height: calc(100vh - 200px);
+}
+
+.home-card {
+  margin: 20px 0 !important;
+  height: 420px !important;
+}
+
+.card-image {
+  max-height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-header {
+  margin: 5px 0;
+  display: flex !important;
+  justify-content: space-between;
+}
+/*
+message-container should center the message
+*/
+.message-container {
+  min-height: 77vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-board-column {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.home-board-row {
+  padding: 0 !important;
+}

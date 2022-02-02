@@ -1,0 +1,28 @@
+                User feedback
+
+Feedback was collected from 3 users. 
+the users were given the Website URL and a 3-minute introduction regarding the concept of the Website
+
+
+Each user was given 30 minutes to go through the website and check for themselves how to work on it.
+
+One of the users found a bug when adding a new ticket in the board page. 
+The bug was if a user was adding a ticket without adding description the ticket would have the previous added ticket description, 
+that bug was fixed so that a user must fill in Title and a description when adding a ticket otherwise it wouldn’t be added. 
+
+
+Beside the above-mentioned bug most feedback was regarding the views and the navigation around the site.
+
+One user suggested to have the logo as home button as most people are used to press on 
+the logo of a website to go back to the home page of a website. 
+
+Another user wanted to see information about the project before adding it as a project to work on, 
+so and the Bug-tracker team implemented the functionality so that after a user search for a project they can press 
+on the git repository and get a pop up with additional information.
+
+lastly all users suggested other info that they felt would be relevant to see in
+ the home page and in the popup after searching for a git repository, the suggested information was added afterwards.
+ 
+The requested information was languages used in the repository, issue existences and its count. 
+
+before and after pictures are submited with the project submission.

@@ -1,0 +1,41 @@
+.add-ticket-button {
+  margin: 0;
+  float: right;
+  margin: 10px 0 !important;
+}
+
+.popup-menu {
+  border: none !important;
+  padding: 0 0 0 0 !important;
+}
+
+.sign-out-menu-item {
+  display: flex !important;
+  text-align: center;
+  flex-direction: column;
+}
+
+.main-nav-priority {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.priority-slider {
+  width: 160px !important;
+}
+
+.priority-numbers {
+  margin: 0 !important;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+
+.priority-number {
+  margin: 0 !important;
+}
+
+.main-nav-statistic {
+  padding-right: 11px !important;
+}
