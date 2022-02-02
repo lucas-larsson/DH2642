@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="js/views/summaryView.js" type="text/jsx"></script>
+    <script src ="js/views/sidebarView.js" type="text/jsx"></script>
+    <script src ="js/views/searchView.js" type="text/jsx"></script>
+
+</head>
+<body>
+<div id ="app"></div>
+</body>
+<script type ="text/jsx">
+    function RenderTest(){ console.log("React sub-component render test"); return false; }
+    function ReactTopLevelNumber(){
+        const [num, setNumber]= React.useState(2);
+        return (
+            <div>
+                <SidebarView guests={num} setGuests={x=> setNumber(x)} />
+                <SummaryView persons={num}/>
+                <RenderTest />
+            </div>
+        );
+    }
+    ReactDOM.render(<ReactTopLevelNumber />, document.getElementById("app"))
+
+
+</script>
+</html>

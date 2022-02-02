@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src = "https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src = "https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/views/summaryView.js" type="text/jsx"></script>
+    <script src ="js/views/sidebarView.js" type="text/jsx"></script>
+    <script src ="js/views/searchView.js" type="text/jsx"></script>
+
+    <script src ="js/app.js" type="text/jsx"></script>
+    <script src ="js/vueJs/summaryPresenter.js" type="text/jsx"></script>
+    <script src ="js/vueJs/sidebarPresenter.js" type="text/jsx"></script>
+    <script src ="js/DinnerModel.js" type="text/jsx"></script>
+
+    <script>
+        // Babel generates calls to react.creatElement by default,
+        // so we redefine that:
+        const React = {createElement:Vue.h};
+    </script>
+</head>
+<body>
+<div id="app"></div>
+</body>
+<script type="text/jsx">
+    const TopLevelModel= {
+        data(){ return  {model: new DinnerModel()}; },
+        render(){  return <App model={this.model} />; }
+    };
+    Vue.render(<TopLevelModel />, document.getElementById("app"))
+</script>
+</html>
