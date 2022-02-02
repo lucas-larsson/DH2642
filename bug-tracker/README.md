@@ -1,5 +1,13 @@
 # Bug-Tracker
 
+##  This project is a colaberation of: 
+
+- Alex Lindberg 
+- Alexander Berg
+- Dennis Hadzalic 
+- Lucas Larsson 
+
+
 Link to site: https://bug-tracker-7979b.web.app/
 
 Bug-Tracker is an app which you can use to track your projects' bugs and issues. Our intention is to give developers a quick overview of
