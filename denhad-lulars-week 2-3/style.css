@@ -1,0 +1,154 @@
+/*
+sideBar probs
+*/
+.sidebar {
+  width: 200px;
+  position: fixed;
+  text-align: center;
+}
+/*
+summaryView box
+*/
+.mainContent {
+  margin-left: 250px;
+  margin-right: 20px;
+}
+
+/*wholething */
+.flexParent {
+  display: flex;
+  margin: 10px;
+  width: 100%;
+  height: 100%;
+  /*
+  border-radius: 3%;
+  border: 2px solid yellow;
+  color:red ;
+*/
+}
+
+/*
+body Probs
+*/
+body {
+  background-color: rgb(224, 224, 224);
+}
+
+/*
+mutual props for both side bar and summary view
+*/
+.debug {
+  border: 1px solid;
+  border-radius: 3%;
+  padding: 10px;
+  background-color: #a7a7a7;
+  height: 100%;
+  overflow: auto;
+}
+
+/*
+inner Table
+*/
+.summaryview {
+  margin: 30px;
+  border-radius: 3%;
+  border: 1px solid #e28a8a;
+  border-collapse: collapse;
+}
+/* displays the serch results centered and inline depending on the width
+.searchResult {
+  text-align: center;
+  display: inline;
+  width: 100px;
+  vertical-align: 20px;
+  margin: 20px;
+  border-radius: 30%;}
+
+/* On screens that are less than 600px wide, make the sidebar into a topbar */
+@media screen and (max-width: 600px) {
+  .summaryview {
+    border: 1px double #e28a8a;
+    border-radius: 3%;
+  }
+
+  .debug {
+    margin: 10px;
+    border-style: double;
+    border-radius: 3%;
+    height: auto;
+    overflow: auto;
+  }
+
+  .flexParent {
+    position: relative;
+    display: block;
+  }
+
+  .mainContent {
+    width: 88%;
+    position: relative;
+    margin-right: 200px;
+  }
+
+  .sidebar {
+    height: auto;
+    position: relative;
+    width: 88%;
+  }
+}
+
+#detailsView {
+  width: 30%;
+  height: auto;
+}
+
+.detailsImage {
+  width: 300px;
+  float: left;
+}
+.imageAndPrice {
+  list-style-type: none;
+}
+
+.box {
+  border: 1px solid;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.dishPrice {
+  text-align: right;
+  width: auto;
+}
+#priceAndGuests {
+  float: right;
+}
+
+#moreInformationLink,
+.detailsImage,
+.detailsList {
+  float: left;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.navigation-button {
+  background-color: #e28a8a;
+  border-radius: 3%;
+  border: 1px solid #e28a8a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
